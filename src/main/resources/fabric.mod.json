@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "damageboostmod",
+  "version": "1.0.0",
+  "name": "Damage Boost Mod",
+  "description": "Deals 250% melee damage when toggled on using a keybind.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.damageboost.DamageBoostMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "fabric": "*",
+    "minecraft": "1.21.3"
+  }
+}
